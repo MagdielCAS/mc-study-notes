@@ -28,7 +28,9 @@ It has three main components:
 
 A producer creates events that are redirected by a broker into the right consumer. Consumers will react to this event and execute things they need to execute.
 
-![EDA Components](http://yuml.me/diagram/scruffy;dir:LR/class/%5BProducer%5D-%3E%5BBroker/Ingestion%5D,%20%5BBroker/Ingestion%5D-%3E%5BConsumer%201%5D,%20%5BBroker/Ingestion%5D-%3E%5BConsumer%202%5D,%20%5BBroker/Ingestion%5D-%3E%5BConsumer%203%5D.svg)
+<p align="center" width="100%">
+    <img width="50%" alt="EDA Components" src="https://yuml.me/a0017654.jpg"> 
+</p>
 
 An event-driven architecture can use a publish/subscribe (also called pub/sub) model or an event stream model.
 
